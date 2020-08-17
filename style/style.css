@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.section__header {
+  /* background-image: linear-gradient(
+      to right,
+      rgb(38, 147, 197),
+      rgba(3, 55, 85, 0.692)
+    ),
+    url("../images/pic-1.jpg"); */
+  background-image: url("../images/pic-1.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.header__main__content {
+  width: 70%;
+  height: 91vh;
+  /* background-color: orange; */
+  background-color: orange;
+  clip-path: polygon(0 0, 71% 0, 93% 100%, 0% 100%);
+}
+
+.header__content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.header__content p {
+  width: 70%;
+  color: #000;
+}
+#typed {
+  color: rgb(11, 7, 46);
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.typed-cursor {
+  font-size: 50px;
+  color: rgb(25, 14, 126);
+}
+
+/**********Course Section************/
+
+.course__section {
+  width: 100vw;
+  /* height: 450px; */
+  /* background-color: rgb(144, 197, 247); */
+  padding: 25px;
+  margin-top: 50px;
+}
+.section__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.counter__section {
+  width: 100vw;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.counter__section .section__title {
+  color: #fff;
+}
+.section_bg {
+  background-image: linear-gradient(
+      to right,
+      rgba(77, 76, 76, 0.692),
+      rgba(43, 44, 43, 0.541)
+    ),
+    url("../images/pic-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 400px; */
+  padding: 80px 20px;
+}
+
+.counter_box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter_box .fas,
+.counter__box span {
+  display: block;
+}
+
+.counter_box .fas {
+  font-size: 50px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, orange, orangered);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.counter_box span {
+  color: rgb(139, 74, 0);
+}
+
+.counter_box p {
+  font-weight: 500;
+  text-transform: uppercase;
+}
